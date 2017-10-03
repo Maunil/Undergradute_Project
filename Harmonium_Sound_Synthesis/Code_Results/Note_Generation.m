@@ -1,0 +1,45 @@
+clc;
+clear;
+
+load 'C4_Sa_STFT.mat';
+
+t = 0:0.002902494331065/64:7.456507936507936;
+len_t = length(t);
+
+sum = zeros(1,len_t);
+row_f1 = size(f1,1);
+
+for i  = 1:row_f1
+    cnt = 1;
+    y = amp1(i,1)*cos(2*pi*f1(i,1)*t);
+%     for j = 1:64:len_t-1
+%         
+%         y(j:j+63) = b1(i,cnt)*y(j:j+63);
+%         
+%         cnt = cnt + 1;
+%     end
+    
+    sum = sum + y;
+    
+end
+
+sum = 5*real(sum);
+
+% Generating Linespace for Envelope
+T = len_t;
+
+T1 = round(0.10*T);
+T2 = round(0.30*T);
+T3 = round(0.40*T);
+T4 = round(0.20*T);
+
+L1 = linspace(0,1,T1);
+L2 = linspace(1,0.7,T2);
+L3 = linspace(0.7,0.7,T3);
+L4 = linspace(0.7,0,T4);
+
+a = [L1 L2 L3 L4];
+
+sum = a.*sum;
+
+audiowrite('C4_Generated.wav',sum,fs);
