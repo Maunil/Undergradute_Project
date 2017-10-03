@@ -1,0 +1,1 @@
+1).PJSUA Tutorial:- https://trac.pjsip.org/repos/wiki/Python_SIP_Tutorial
