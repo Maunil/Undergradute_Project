@@ -1,0 +1,2 @@
+verilog work "netgen/par/MIPS_timesim.v"
+verilog work "MIPS_Test_Bench.v"

@@ -1,0 +1,2 @@
+verilog work "netgen/map/MIPS_map.v"
+verilog work "MIPS_Test_Bench.v"

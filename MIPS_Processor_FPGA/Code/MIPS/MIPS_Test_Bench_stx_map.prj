@@ -1,0 +1,2 @@
+verilog isim_temp "netgen/map/MIPS_map.v"
+verilog isim_temp "MIPS_Test_Bench.v"

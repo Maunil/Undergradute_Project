@@ -1,0 +1,74 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - A core named 'Instruction_Memory' already exists in the project.
+   Output products for this core may be overwritten.
+Resolving generics for 'Instruction_Memory'...
+WARNING:sim - A core named 'Instruction_Memory' already exists in the project.
+   Output products for this core may be overwritten.
+Applying external generics to 'Instruction_Memory'...
+Delivering associated files for 'Instruction_Memory'...
+WARNING:sim - Component blk_mem_gen_v7_2 does not have a valid model name for
+   Verilog synthesis
+Delivering EJava files for 'Instruction_Memory'...
+Generating implementation netlist for 'Instruction_Memory'...
+INFO:sim - Pre-processing HDL files for 'Instruction_Memory'...
+Running synthesis for 'Instruction_Memory'
+Running ngcbuild...
+Writing VEO instantiation template for 'Instruction_Memory'...
+Writing Verilog instantiation wrapper for 'Instruction_Memory'...
+Writing Verilog behavioral simulation model for 'Instruction_Memory'...
+WARNING:sim - No files were found for the view xilinx_documentation
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'Instruction_Memory'...
+Generating metadata file...
+Regenerating ISE project file for 'Instruction_Memory'...
+Generating ISE project...
+XCO file found: Instruction_Memory.xco
+XMDF file found: Instruction_Memory_xmdf.tcl
+Adding E:/ICT/ICT SEM 3/Computer Organization/Practical
+Lab/AdderMIPS/MIPS/ipcore_dir/tmp/_cg/Instruction_Memory.asy -view all
+-origin_type imported
+Adding E:/ICT/ICT SEM 3/Computer Organization/Practical
+Lab/AdderMIPS/MIPS/ipcore_dir/tmp/_cg/Instruction_Memory.ngc -view all
+-origin_type created
+Checking file "E:/ICT/ICT SEM 3/Computer Organization/Practical
+Lab/AdderMIPS/MIPS/ipcore_dir/tmp/_cg/Instruction_Memory.ngc" for project device
+match ...
+File "E:/ICT/ICT SEM 3/Computer Organization/Practical
+Lab/AdderMIPS/MIPS/ipcore_dir/tmp/_cg/Instruction_Memory.ngc" device information
+matches project device.
+Adding E:/ICT/ICT SEM 3/Computer Organization/Practical
+Lab/AdderMIPS/MIPS/ipcore_dir/tmp/_cg/Instruction_Memory.sym -view all
+-origin_type imported
+Adding E:/ICT/ICT SEM 3/Computer Organization/Practical
+Lab/AdderMIPS/MIPS/ipcore_dir/tmp/_cg/Instruction_Memory.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/ICT/ICT SEM 3/Computer
+   Organization/Practical
+   Lab/AdderMIPS/MIPS/ipcore_dir/tmp/_cg/Instruction_Memory.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/ICT/ICT SEM 3/Computer Organization/Practical
+Lab/AdderMIPS/MIPS/ipcore_dir/tmp/_cg/Instruction_Memory.veo -view all
+-origin_type imported
+Adding E:/ICT/ICT SEM 3/Computer Organization/Practical
+Lab/AdderMIPS/MIPS/ipcore_dir/tmp/_cg/Instruction_Memory_synth.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/ICT/ICT SEM 3/Computer
+   Organization/Practical
+   Lab/AdderMIPS/MIPS/ipcore_dir/tmp/_cg/Instruction_Memory_synth.v" into
+   library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/Instruction_Memory"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'Instruction_Memory'.

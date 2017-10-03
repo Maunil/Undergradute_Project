@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\ICT\ICT SEM 3\Computer Organization\Practical Lab\AdderMIPS\MIPS\MIPS.ncd
+OUTFILE=E:\ICT\ICT SEM 3\Computer Organization\Practical Lab\AdderMIPS\MIPS\MIPS.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=E:\ICT\ICT SEM 3\Computer Organization\Practical Lab\AdderMIPS\MIPS
+LICENSE=WebPack
+USER_INFO=__0_0_0

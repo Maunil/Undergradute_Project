@@ -1,0 +1,343 @@
+Release 14.2 - Bitgen P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:\Xilinx\14.2\ISE_DS\ISE\.
+   "MIPS" is an NCD, version 3.2, device xc3s500e, package fg320, speed -4
+Opened constraints file MIPS.pcf.
+
+Fri Oct 30 13:18:55 2015
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:1 -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g DCMShutdown:Disable -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No MIPS.ncd 
+
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Not Specified)*     |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable**             |
++----------------------+----------------------+
+| DebugBitstream       | No**                 |
++----------------------+----------------------+
+| ConfigRate           | 1**                  |
++----------------------+----------------------+
+| StartupClk           | Cclk**               |
++----------------------+----------------------+
+| DCMShutdown          | Disable**            |
++----------------------+----------------------+
+| DonePin              | Pullup**             |
++----------------------+----------------------+
+| ProgPin              | Pullup**             |
++----------------------+----------------------+
+| TckPin               | Pullup**             |
++----------------------+----------------------+
+| TdiPin               | Pullup**             |
++----------------------+----------------------+
+| TdoPin               | Pullup**             |
++----------------------+----------------------+
+| TmsPin               | Pullup**             |
++----------------------+----------------------+
+| UnusedPin            | Pulldown**           |
++----------------------+----------------------+
+| GWE_cycle            | 6**                  |
++----------------------+----------------------+
+| GTS_cycle            | 5**                  |
++----------------------+----------------------+
+| LCK_cycle            | NoWait**             |
++----------------------+----------------------+
+| DONE_cycle           | 4**                  |
++----------------------+----------------------+
+| Persist              | No*                  |
++----------------------+----------------------+
+| DriveDone            | No**                 |
++----------------------+----------------------+
+| DonePipe             | Yes                  |
++----------------------+----------------------+
+| Security             | None**               |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF**         |
++----------------------+----------------------+
+| MultiBootMode        | No*                  |
++----------------------+----------------------+
+| ActivateGclk         | No*                  |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| PartialMask0         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask1         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask2         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialGclk          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialLeft          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialRight         | (Not Specified)*     |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No**                 |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+There were 0 CONFIG constraint(s) processed from MIPS.pcf.
+
+
+Running DRC.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net Clk1_sim_OBUF is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net Clk2_sim_OBUF is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net Clk4_sim_OBUF is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ClockBlock/AND1 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <Interrupt_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB3> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB4> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB5> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB6> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB10> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB11> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB12> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB13> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB14> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB19> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB20> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB21> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB22> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB26> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB27> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB28> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB29> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB30> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<PCIM/ysda/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid
+   .cstr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA1> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA2> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA3> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA4> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA5> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA6> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA9> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA10> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA11> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA12> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA13> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA14> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA17> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA18> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA19> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA20> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA21> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA22> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA25> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA26> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA27> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA28> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA29> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA30> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB1> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB2> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB3> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB4> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB5> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB6> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB9> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB10> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB11> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB12> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB13> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB14> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB17> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB18> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB19> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB20> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB21> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB22> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB25> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB26> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB27> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB28> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB29> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB30> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<DM/DM1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cs
+   tr/ramloop[0].ram.r/s3_init.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+DRC detected 0 errors and 83 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
+Creating bit map...
+Saving bit stream in "mips.bit".
+Bitstream generation is complete.

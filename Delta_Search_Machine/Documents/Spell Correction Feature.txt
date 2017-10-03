@@ -1,0 +1,4 @@
+1).Assumes that first 2 and last character is not wrong as given in link
+   http://norvig.com/spell-correct.html
+
+2).Static Spell Corrector

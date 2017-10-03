@@ -1,0 +1,3 @@
+verilog work "Write_Back.v"
+verilog work "ipcore_dir/Data_Memory_synth.v"
+verilog work "ipcore_dir/Instruction_Memory_synth.v"

@@ -1,0 +1,56 @@
+----------------------------------------------------------
+22/06/2016
+
+Updated:
+
+->History Storing and Viewing very fast and efficient
+
+New Feature:
+
+->We can view files in folders by writing folder name
+
+----------------------------------------------------------
+23/06/2016
+
+Updated:
+
+->Indexing Technique
+->Searching Technique
+
+New Feature:
+
+->Search by extension added
+
+Bug Fixes:
+
+->Removed a Bug in Spell Correction
+
+----------------------------------------------------------
+19/07/2016
+
+Bug Fixes:
+
+->Removed Bug in Serching and History.
+
+----------------------------------------------------------
+21/07/2016
+
+New Feature:
+	
+->Added Search Time
+->Added Picture Slideshow
+
+Bug Fixes:
+
+->History Bug Fixed
+->Spell Correction Bug
+->Recommendation Bug
+
+----------------------------------------------------------
+05/08/2016
+
+Updated:
+
+->Created Two temp Folder while Searching One for Directory and One for File
+->Delete After Result and Time is Shown
+->One Time Invok of PrintWriter during Final writing os links in Search

@@ -1,0 +1,41 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib simprims_ver -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS_Test_Bench_isim_par.exe -prj C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS_Test_Bench_par.prj work.MIPS_Test_Bench work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/netgen/par/MIPS_timesim.v" into library work
+Analyzing Verilog file "C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS_Test_Bench.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module X_BUF
+Compiling module X_XOR2
+Compiling module mux
+Compiling module X_MUX2
+Compiling module X_AND2
+Compiling module X_OPAD
+Compiling module X_OBUF
+Compiling module X_IPAD
+Compiling module X_RAMB16_S36_S36(WRITE_MODE_A="N...
+Compiling module X_RAMB16_S36_S36(SETUP_ALL=227,S...
+Compiling module X_BUFGMUX(LOC="BUFGMUX_X2Y11")
+Compiling module X_INV(LOC="BUFGMUX_X2Y11")
+Compiling module X_LUT4(INIT=16'b010)
+Compiling module sffsrce
+Compiling module X_SFF
+Compiling module ffsrce
+Compiling module X_FF
+Compiling module X_RAMD16(INIT=16'b10101010101010...
+Compiling module X_SFF(INIT=1'b1)
+Compiling module X_FF(INIT=1'b1)
+Compiling module X_ZERO
+Compiling module X_ONE
+Compiling module MIPS
+Compiling module MIPS_Test_Bench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\MIPS_Test_Bench_isim_par.exe.sim\libPortability.dll".
+Compiled 965 Verilog Units
+Built simulation executable C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS_Test_Bench_isim_par.exe
+Fuse Memory Usage: 49316 KB
+Fuse CPU Usage: 5578 ms

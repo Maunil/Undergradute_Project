@@ -1,0 +1,2 @@
+verilog isim_temp "netgen/par/MIPS_timesim.v"
+verilog isim_temp "MIPS_Test_Bench.v"

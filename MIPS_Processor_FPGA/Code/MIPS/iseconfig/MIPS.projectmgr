@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="MIPS" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Clock_Control_Block E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|Clock_Control_Block.v</ClosedNode>
+         <ClosedNode>/Data_Memory_Block E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|Data_Memory_Block.v</ClosedNode>
+         <ClosedNode>/MIPS C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|MIPS.v/ClockBlock - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|MIPS.v/DM - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|MIPS.v/PCIM - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|MIPS.v/ClockBlock - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|MIPS.v/DM - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|MIPS.v/PCIM - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS.v/C1 - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS.v/ClockBlock - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS.v/D1 - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS.v/DM - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS.v/P1 - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS.v/PCIM - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|MIPS.v/ClockBlock - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|MIPS.v/DM - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|MIPS.v/PCIM - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|MIPS.v/ClockBlock - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|MIPS.v/DM - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|MIPS.v/PCIM - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/Program_Counter_IM_Block E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|Program_Counter_IM_Block.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>MIPS (C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001df000000020000000000000000000000000200000064ffffffff000000810000000300000002000001df0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>MIPS (C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000105000000010000000100000000000000000000000064ffffffff000000810000000000000001000001050000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>MIPS.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Place &amp; Route</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >8</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Place &amp; Route</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Post-Route Simulation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000105000000010000000100000000000000000000000064ffffffff000000810000000000000001000001050000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Clock_Control_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|Clock_Control_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Clock_Control_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Clock_Control_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Clock_Control_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|Clock_Control_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Clock_Control_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|Clock_Control_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Clock_Control_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|Clock_Control_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Data_Memory_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|Data_Memory_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Data_Memory_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Data_Memory_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Data_Memory_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|Data_Memory_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Data_Memory_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|Data_Memory_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Data_Memory_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|Data_Memory_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Dependancy_Check_Block_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|Dependancy_Check_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Dependancy_Check_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Dependancy_Check_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Dependancy_Check_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|Dependancy_Check_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Dependancy_Check_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|Dependancy_Check_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Dependancy_Check_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|Dependancy_Check_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Exicution_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|Exicution_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Exicution_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Exicution_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Exicution_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|Exicution_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Exicution_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|Exicution_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Exicution_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|Exicution_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Jump_Control_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Jump_Control_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Jump_Control_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|Jump_Control_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Jump_Control_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|Jump_Control_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Jump_Control_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|Jump_Control_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS.v</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS.v/C1 - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS.v/D1 - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS.v/P1 - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS_TEST_BENCH.v</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/C1 - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/ClockBlock - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/D1 - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/DM - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/P1 - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/PCIM - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/ClockBlock - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/DM - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/PCIM - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|MIPS_TEST_BENCH.v</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/ClockBlock - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/DM - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS_TEST_BENCH E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|MIPS_TEST_BENCH.v/uut - MIPS/PCIM - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|MIPS_Test_Bench.v</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|MIPS_Test_Bench.v</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|MIPS_Test_Bench.v/uut - MIPS/ClockBlock - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|MIPS_Test_Bench.v/uut - MIPS/DM - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|MIPS_Test_Bench.v/uut - MIPS/PCIM - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|MIPS_Test_Bench.v/uut - MIPS</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|MIPS_Test_Bench.v/uut - MIPS/ClockBlock - Clock_Control_Block</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|MIPS_Test_Bench.v/uut - MIPS/DM - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|MIPS_Test_Bench.v/uut - MIPS/PCIM - Program_Counter_IM_Block</ClosedNode>
+         <ClosedNode>/Progrma_Control_IM_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|Progrma_Control_IM_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Progrma_Control_IM_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Progrma_Control_IM_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Progrma_Control_IM_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|Progrma_Control_IM_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Progrma_Control_IM_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|Progrma_Control_IM_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Progrma_Control_IM_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|Progrma_Control_IM_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Register_File_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|Register_File_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Register_File_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Register_File_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Register_File_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|MIPS|MIPS|Register_File_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Register_File_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder_Multy|MIPS|Register_File_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Register_File_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|New folder|MIPS|Register_File_Test_Bench.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>MIPS_Test_Bench (C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS_Test_Bench.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ea000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ea0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>MIPS_Test_Bench (C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS_Test_Bench.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Clock_Control_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Clock_Control_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Data_Memory_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Data_Memory_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Dependancy_Check_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Dependancy_Check_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Exicution_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Exicution_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Jump_Control_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Jump_Control_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|MIPS_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Progrma_Control_IM_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Progrma_Control_IM_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Register_File_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Register_File_Test_Bench.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>MIPS_Test_Bench (E:/ICT/ICT SEM 3/Computer Organization/Practical Lab/AdderMIPS/MIPS/MIPS_Test_Bench.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ea000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ea0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>MIPS_Test_Bench (E:/ICT/ICT SEM 3/Computer Organization/Practical Lab/AdderMIPS/MIPS/MIPS_Test_Bench.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000105000000010000000100000000000000000000000064ffffffff000000810000000000000001000001050000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000105000000010000000100000000000000000000000064ffffffff000000810000000000000001000001050000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000105000000010000000100000000000000000000000064ffffffff000000810000000000000001000001050000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Clock_Control_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|Clock_Control_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Clock_Control_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Clock_Control_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Data_Memory_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|Data_Memory_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Data_Memory_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Data_Memory_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Dependancy_Check_Block_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|Dependancy_Check_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Dependancy_Check_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Dependancy_Check_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Exicution_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|Exicution_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Exicution_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Exicution_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Jump_Control_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Jump_Control_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench C:|Users|cmp|Deep|Semester 3|CO|MIPS|AdderMIPS|MIPS|MIPS_Test_Bench.v</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|MIPS_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Progrma_Control_IM_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Progrma_Control_IM_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Register_File_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Register_File_Test_Bench.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>MIPS_Test_Bench (C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS_Test_Bench.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ea000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ea0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>MIPS_Test_Bench (C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS_Test_Bench.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostMapSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Clock_Control_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Clock_Control_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Data_Memory_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Data_Memory_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Dependancy_Check_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Dependancy_Check_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Exicution_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Exicution_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Jump_Control_Block_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Jump_Control_Block_Test_Bench.v</ClosedNode>
+         <ClosedNode>/MIPS_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|MIPS_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Progrma_Control_IM_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Progrma_Control_IM_Test_Bench.v</ClosedNode>
+         <ClosedNode>/Register_File_Test_Bench E:|ICT|ICT SEM 3|Computer Organization|Practical Lab|AdderMIPS|MIPS|Register_File_Test_Bench.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>MIPS_Test_Bench (E:/ICT/ICT SEM 3/Computer Organization/Practical Lab/AdderMIPS/MIPS/MIPS_Test_Bench.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ea000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ea0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>MIPS_Test_Bench (E:/ICT/ICT SEM 3/Computer Organization/Practical Lab/AdderMIPS/MIPS/MIPS_Test_Bench.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostMapSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000105000000010000000100000000000000000000000064ffffffff000000810000000000000001000001050000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostMapSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000105000000010000000100000000000000000000000064ffffffff000000810000000000000001000001050000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+</Project>

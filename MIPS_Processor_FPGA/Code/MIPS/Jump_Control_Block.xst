@@ -1,0 +1,5 @@
+set -tmpdir "E:/ICT/ICT SEM 3/Computer Organization/Practical Lab/AdderMIPS/MIPS/xst/projnav.tmp"
+set -xsthdpdir "E:/ICT/ICT SEM 3/Computer Organization/Practical Lab/AdderMIPS/MIPS/xst"
+elaborate
+-ifn Jump_Control_Block.prj
+-ifmt mixed

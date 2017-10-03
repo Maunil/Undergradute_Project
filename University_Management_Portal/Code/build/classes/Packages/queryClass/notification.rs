@@ -1,0 +1,1 @@
+queryClass.notification

@@ -1,0 +1,5 @@
+set -tmpdir "E:/ICT/ICT SEM 3/Computer Organization/Practical Lab/MIPS/MIPS/xst/projnav.tmp"
+set -xsthdpdir "E:/ICT/ICT SEM 3/Computer Organization/Practical Lab/MIPS/MIPS/xst"
+elaborate
+-ifn Write_Back.prj
+-ifmt mixed

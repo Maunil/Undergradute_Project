@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/Instruction_Memory.v"
+verilog work "Program_Counter_IM_Block.v"
+verilog work "ipcore_dir/Data_Memory_synth.v"
+verilog work "ipcore_dir/Instruction_Memory_synth.v"

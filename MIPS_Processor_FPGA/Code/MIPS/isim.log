@@ -1,0 +1,147 @@
+ISim log file
+Running: C:\Users\cmp\Deep\Semester 3\CO\MIPS\AdderMIPS\MIPS\MIPS_Test_Bench_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/cmp/Deep/Semester 3/CO/MIPS/AdderMIPS/MIPS/MIPS_Test_Bench_isim_par.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/mips_timesim.sdf, for root module /MIPS_Test_Bench/uut/.
+Finished circuit initialization process.
+# run 100.00us
+WARNING: at 3610747 ps: Timing violation in /MIPS_Test_Bench/uut/\Execution/Rw_ex_1 /  $setuphold<setup>( I:3610743 ps, CLK:3610747 ps,132 ps,48 ps)
+
+
+WARNING: at 3610766 ps: Timing violation in /MIPS_Test_Bench/uut/\Execution/Rw_ex_0 /  $setuphold<hold>( CLK:3610747 ps, I:3610766 ps,132 ps,48 ps)
+
+
+WARNING: at 4610743 ps: Timing violation in /MIPS_Test_Bench/uut/\Execution/Mem_mux_sel_ex /  $setuphold( CLK:4610743 ps, SRST:4610228 ps,909 ps,-490 ps)
+
+
+WARNING: at 4610766 ps: Timing violation in /MIPS_Test_Bench/uut/\Execution/Rw_ex_0 /  $setuphold<hold>( CLK:4610747 ps, I:4610766 ps,132 ps,48 ps)
+
+
+WARNING: at 5610743 ps: Timing violation in /MIPS_Test_Bench/uut/\Execution/Mem_mux_sel_ex /  $setuphold( CLK:5610743 ps, SRST:5610228 ps,909 ps,-490 ps)
+
+
+WARNING: at 5610747 ps: Timing violation in /MIPS_Test_Bench/uut/\Execution/Rw_ex_1 /  $setuphold<setup>( I:5610743 ps, CLK:5610747 ps,132 ps,48 ps)
+
+
+WARNING: at 5610766 ps: Timing violation in /MIPS_Test_Bench/uut/\Execution/Rw_ex_0 /  $setuphold<hold>( CLK:5610747 ps, I:5610766 ps,132 ps,48 ps)
+
+
+WARNING: at 6609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank13.SLICEM_G /  $setuphold<setup>( WADR1:6609205 ps, CLK:6609388 ps,521 ps,0 ps)
+
+
+WARNING: at 6609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank13.SLICEM_F /  $setuphold<setup>( WADR1:6609205 ps, CLK:6609388 ps,521 ps,0 ps)
+
+
+WARNING: at 6609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank5.SLICEM_F /  $setuphold<setup>( WADR1:6609205 ps, CLK:6609388 ps,521 ps,0 ps)
+
+
+WARNING: at 6609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank5.SLICEM_G /  $setuphold<setup>( WADR1:6609205 ps, CLK:6609388 ps,521 ps,0 ps)
+
+
+WARNING: at 6609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren5.SLICEM_F /  $setuphold<setup>( WADR1:6609164 ps, CLK:6609390 ps,521 ps,0 ps)
+
+
+WARNING: at 6609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren5.SLICEM_G /  $setuphold<setup>( WADR1:6609164 ps, CLK:6609390 ps,521 ps,0 ps)
+
+
+WARNING: at 6610743 ps: Timing violation in /MIPS_Test_Bench/uut/\Execution/Mem_mux_sel_ex /  $setuphold( CLK:6610743 ps, SRST:6610228 ps,909 ps,-490 ps)
+
+
+WARNING: at 7609386 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren13.SLICEM_F /  $setuphold<setup>( WADR2:7609224 ps, CLK:7609386 ps,521 ps,0 ps)
+
+
+WARNING: at 7609386 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren13.SLICEM_G /  $setuphold<setup>( WADR2:7609224 ps, CLK:7609386 ps,521 ps,0 ps)
+
+
+WARNING: at 7609386 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren15.SLICEM_G /  $setuphold<setup>( WADR2:7609213 ps, CLK:7609386 ps,521 ps,0 ps)
+
+
+WARNING: at 7609386 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren15.SLICEM_F /  $setuphold<setup>( WADR2:7609213 ps, CLK:7609386 ps,521 ps,0 ps)
+
+
+WARNING: at 7609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank15.SLICEM_G /  $setuphold<setup>( WADR0:7609151 ps, CLK:7609388 ps,521 ps,0 ps)
+
+
+WARNING: at 7609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank15.SLICEM_G /  $setuphold<setup>( WADR2:7609244 ps, CLK:7609388 ps,521 ps,0 ps)
+
+
+WARNING: at 7609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank15.SLICEM_F /  $setuphold<setup>( WADR0:7609151 ps, CLK:7609388 ps,521 ps,0 ps)
+
+
+WARNING: at 7609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank15.SLICEM_F /  $setuphold<setup>( WADR2:7609244 ps, CLK:7609388 ps,521 ps,0 ps)
+
+
+WARNING: at 7609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank5.SLICEM_F /  $setuphold<setup>( WADR0:7609209 ps, CLK:7609388 ps,521 ps,0 ps)
+
+
+WARNING: at 7609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank5.SLICEM_G /  $setuphold<setup>( WADR0:7609209 ps, CLK:7609388 ps,521 ps,0 ps)
+
+
+WARNING: at 7609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren7.SLICEM_G /  $setuphold<setup>( WADR2:7609277 ps, CLK:7609390 ps,521 ps,0 ps)
+
+
+WARNING: at 7609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren7.SLICEM_F /  $setuphold<setup>( WADR2:7609277 ps, CLK:7609390 ps,521 ps,0 ps)
+
+
+WARNING: at 7609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren5.SLICEM_F /  $setuphold<setup>( WADR0:7609386 ps, CLK:7609390 ps,521 ps,0 ps)
+
+
+WARNING: at 7609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren5.SLICEM_F /  $setuphold<setup>( WADR2:7609264 ps, CLK:7609390 ps,521 ps,0 ps)
+
+
+WARNING: at 7609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren5.SLICEM_G /  $setuphold<setup>( WADR0:7609386 ps, CLK:7609390 ps,521 ps,0 ps)
+
+
+WARNING: at 7609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren5.SLICEM_G /  $setuphold<setup>( WADR2:7609264 ps, CLK:7609390 ps,521 ps,0 ps)
+
+
+WARNING: at 7609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank7.SLICEM_F /  $setuphold<setup>( WADR2:7609277 ps, CLK:7609390 ps,521 ps,0 ps)
+
+
+WARNING: at 7609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank7.SLICEM_G /  $setuphold<setup>( WADR2:7609277 ps, CLK:7609390 ps,521 ps,0 ps)
+
+
+WARNING: at 7610743 ps: Timing violation in /MIPS_Test_Bench/uut/\Execution/Mem_mux_sel_ex /  $setuphold( CLK:7610743 ps, SRST:7610228 ps,909 ps,-490 ps)
+
+
+WARNING: at 8609386 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren13.SLICEM_F /  $setuphold<setup>( WADR2:8609224 ps, CLK:8609386 ps,521 ps,0 ps)
+
+
+WARNING: at 8609386 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren13.SLICEM_G /  $setuphold<setup>( WADR2:8609224 ps, CLK:8609386 ps,521 ps,0 ps)
+
+
+WARNING: at 8609386 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren15.SLICEM_G /  $setuphold<setup>( WADR2:8609213 ps, CLK:8609386 ps,521 ps,0 ps)
+
+
+WARNING: at 8609386 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren15.SLICEM_F /  $setuphold<setup>( WADR2:8609213 ps, CLK:8609386 ps,521 ps,0 ps)
+
+
+WARNING: at 8609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank15.SLICEM_G /  $setuphold<setup>( WADR2:8609244 ps, CLK:8609388 ps,521 ps,0 ps)
+
+
+WARNING: at 8609388 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank15.SLICEM_F /  $setuphold<setup>( WADR2:8609244 ps, CLK:8609388 ps,521 ps,0 ps)
+
+
+WARNING: at 8609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren7.SLICEM_G /  $setuphold<setup>( WADR2:8609277 ps, CLK:8609390 ps,521 ps,0 ps)
+
+
+WARNING: at 8609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren7.SLICEM_F /  $setuphold<setup>( WADR2:8609277 ps, CLK:8609390 ps,521 ps,0 ps)
+
+
+WARNING: at 8609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren5.SLICEM_F /  $setuphold<setup>( WADR2:8609264 ps, CLK:8609390 ps,521 ps,0 ps)
+
+
+WARNING: at 8609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank_ren5.SLICEM_G /  $setuphold<setup>( WADR2:8609264 ps, CLK:8609390 ps,521 ps,0 ps)
+
+
+WARNING: at 8609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank7.SLICEM_F /  $setuphold<setup>( WADR2:8609277 ps, CLK:8609390 ps,521 ps,0 ps)
+
+
+WARNING: at 8609390 ps: Timing violation in /MIPS_Test_Bench/uut/\RF/Mram_Register_Bank7.SLICEM_G /  $setuphold<setup>( WADR2:8609277 ps, CLK:8609390 ps,521 ps,0 ps)
+
+

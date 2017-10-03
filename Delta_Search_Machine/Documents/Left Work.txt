@@ -1,0 +1,6 @@
+1).Spell Correction
+2).Addition of Hyperlink
+4).Try Writing Comments for other Developers
+5).Try Proper Documentation Writing
+6).Diffrentiate Directory Search and File Search
+7).Shortening of File Names(Hash) in Searching function in temp folder

@@ -1,0 +1,2 @@
+verilog work "netgen/translate/MIPS_translate.v"
+verilog work "MIPS_Test_Bench.v"
