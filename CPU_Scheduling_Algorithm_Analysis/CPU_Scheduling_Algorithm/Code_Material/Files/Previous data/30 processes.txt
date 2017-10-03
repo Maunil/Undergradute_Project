@@ -1,0 +1,234 @@
+How many processes you want to enter :- 30
+Enter time slice for throughput  :- 50
+5 1 32
+6 3 39
+7 2 37
+7 2 27
+7 1 41
+25 1 17
+26 3 35
+26 2 34
+26 2 24
+50 2 24
+60 3 44
+60 1 41
+60 3 37
+60 1 14
+65 2 50
+80 1 29
+90 2 36
+95 3 41
+96 2 32
+96 1 21
+96 3 38
+96 2 45
+130 3 45
+130 3 33
+132 2 21
+145 2 28
+145 1 23
+146 1 49
+150 2 38
+159 1 41
+<------------------- FCFS ------------------->
+
+No -> Execution time -> Waiting -> Turn around time
+IDLE -> 5
+P1 -> 1 -> 0 -> 1
+P2 -> 3 -> 0 -> 3
+P3 -> 2 -> 2 -> 4
+P4 -> 2 -> 4 -> 6
+P5 -> 1 -> 6 -> 7
+IDLE -> 11
+P6 -> 1 -> 0 -> 1
+P7 -> 3 -> 0 -> 3
+P8 -> 2 -> 3 -> 5
+P9 -> 2 -> 5 -> 7
+IDLE -> 17
+P10 -> 2 -> 0 -> 2
+IDLE -> 8
+P11 -> 3 -> 0 -> 3
+P12 -> 1 -> 3 -> 4
+P13 -> 3 -> 4 -> 7
+P14 -> 1 -> 7 -> 8
+P15 -> 2 -> 3 -> 5
+IDLE -> 10
+P16 -> 1 -> 0 -> 1
+IDLE -> 9
+P17 -> 2 -> 0 -> 2
+IDLE -> 3
+P18 -> 3 -> 0 -> 3
+P19 -> 2 -> 2 -> 4
+P20 -> 1 -> 4 -> 5
+P21 -> 3 -> 5 -> 8
+P22 -> 2 -> 8 -> 10
+IDLE -> 24
+P23 -> 3 -> 0 -> 3
+P24 -> 3 -> 3 -> 6
+P25 -> 2 -> 4 -> 6
+IDLE -> 7
+P26 -> 2 -> 0 -> 2
+P27 -> 1 -> 2 -> 3
+P28 -> 1 -> 2 -> 3
+IDLE -> 1
+P29 -> 2 -> 0 -> 2
+IDLE -> 7
+P30 -> 1 -> 0 -> 1
+
+Average waiting time :- 2.23333
+Average turn around time :- 4.16667
+CPU Utilization :- 36.25%
+Deadline missed :- 0%
+Throughput percentage :- 30%
+<------------------- SJF ------------------->
+
+No -> Execution time -> Waiting -> Turn around time
+IDLE5
+P1 -> 1 -> 0 -> 1
+P2 -> 3 -> 0 -> 3
+P5 -> 1 -> 2 -> 3
+P3 -> 2 -> 3 -> 5
+P4 -> 2 -> 5 -> 7
+IDLE16
+P6 -> 1 -> 0 -> 1
+P8 -> 2 -> 0 -> 2
+P9 -> 2 -> 2 -> 4
+P7 -> 3 -> 4 -> 7
+IDLE33
+P10 -> 2 -> 0 -> 2
+IDLE41
+P12 -> 1 -> 0 -> 1
+P14 -> 1 -> 1 -> 2
+P11 -> 3 -> 2 -> 5
+P15 -> 2 -> 0 -> 2
+P13 -> 3 -> 7 -> 10
+IDLE51
+P16 -> 1 -> 0 -> 1
+IDLE60
+P17 -> 2 -> 0 -> 2
+IDLE63
+P18 -> 3 -> 0 -> 3
+P20 -> 1 -> 2 -> 3
+P19 -> 2 -> 3 -> 5
+P22 -> 2 -> 5 -> 7
+P21 -> 3 -> 7 -> 10
+IDLE87
+P23 -> 3 -> 0 -> 3
+P25 -> 2 -> 1 -> 3
+P24 -> 3 -> 5 -> 8
+IDLE94
+P27 -> 1 -> 0 -> 1
+P28 -> 1 -> 0 -> 1
+P26 -> 2 -> 2 -> 4
+IDLE95
+P29 -> 2 -> 0 -> 2
+IDLE102
+P30 -> 1 -> 0 -> 1
+
+Average waiting time :- 1.7
+Average turn around time :- 3.63333
+CPU Utilization :- 36.25%
+Deadline missed :- 0%
+Throughput percentage :- 30%
+<------------------- RR ------------------->
+No -> Execution time -> Waiting -> Turn around time
+IDLE5
+P1 -> 1 -> 0 -> 1
+P3 -> 2 -> 1 -> 3
+P4 -> 2 -> 3 -> 5
+P5 -> 1 -> 5 -> 6
+IDLE17
+P6 -> 1 -> 0 -> 1
+P8 -> 2 -> 2 -> 4
+P9 -> 2 -> 4 -> 6
+P7 -> 1 -> 6 -> 7
+IDLE34
+P10 -> 2 -> 0 -> 2
+IDLE42
+P12 -> 1 -> 2 -> 3
+P2 -> 1 -> 57 -> 58 -> Missed deadline
+P14 -> 1 -> 6 -> 7
+P11 -> 1 -> 7 -> 8
+P13 -> 1 -> 8 -> 9
+P15 -> 2 -> 4 -> 6
+IDLE51
+P16 -> 1 -> 0 -> 1
+IDLE60
+P17 -> 2 -> 0 -> 2
+IDLE63
+P19 -> 2 -> 1 -> 3
+P20 -> 1 -> 3 -> 4
+P22 -> 2 -> 6 -> 8
+P21 -> 1 -> 8 -> 9
+IDLE88
+P18 -> 1 -> 39 -> 40
+P23 -> 1 -> 5 -> 6
+P25 -> 2 -> 4 -> 6
+P24 -> 1 -> 8 -> 9
+IDLE94
+P26 -> 2 -> 0 -> 2
+P27 -> 1 -> 2 -> 3
+P28 -> 1 -> 2 -> 3
+IDLE95
+P29 -> 2 -> 0 -> 2
+IDLE102
+P30 -> 1 -> 0 -> 1
+
+Average waiting time :- 6.1
+Average turn around time :- 7.5
+CPU Utilization :- 36.25%
+Deadline missed :- 3.33333%
+Throughput percentage :- 26.6667%
+<------------------- EDF ------------------->
+
+No -> Execution time -> Waiting -> Turn around time
+IDLE5
+P1 -> 1 -> 0 -> 1
+P2 -> 3 -> 0 -> 3
+P4 -> 2 -> 2 -> 4
+P3 -> 2 -> 4 -> 6
+P5 -> 1 -> 6 -> 7
+IDLE16
+P6 -> 1 -> 0 -> 1
+P9 -> 2 -> 0 -> 2
+P8 -> 2 -> 2 -> 4
+P7 -> 3 -> 4 -> 7
+IDLE33
+P10 -> 2 -> 0 -> 2
+IDLE41
+P14 -> 1 -> 0 -> 1
+P13 -> 3 -> 1 -> 4
+P12 -> 1 -> 4 -> 5
+P11 -> 3 -> 5 -> 8
+P15 -> 2 -> 3 -> 5
+IDLE51
+P16 -> 1 -> 0 -> 1
+IDLE60
+P17 -> 2 -> 0 -> 2
+IDLE63
+P18 -> 3 -> 0 -> 3
+P20 -> 1 -> 2 -> 3
+P19 -> 2 -> 3 -> 5
+P21 -> 3 -> 5 -> 8
+P22 -> 2 -> 8 -> 10
+IDLE87
+P24 -> 3 -> 0 -> 3
+P25 -> 2 -> 1 -> 3
+P23 -> 3 -> 5 -> 8
+IDLE94
+P27 -> 1 -> 0 -> 1
+P26 -> 2 -> 1 -> 3
+P28 -> 1 -> 2 -> 3
+IDLE95
+P29 -> 2 -> 0 -> 2
+IDLE102
+P30 -> 1 -> 0 -> 1
+
+Average waiting time :- 1.93333
+Average turn around time :- 3.86667
+CPU Utilization :- 36.25%
+Deadline missed :- 0%
+Throughput percentage :- 30%
+
+Process returned 0 (0x0)   execution time : 10.641 s
+Press any key to continue.

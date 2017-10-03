@@ -1,0 +1,46 @@
+Process 1 created successfully.
+Process 2 created successfully.
+Process 3 created successfully.
+Process 4 created successfully.
+ 
+ProcessID : 1 state : ready Tue Dec  6 23:40:14 2016
+
+ProcessID : 2 state : ready Tue Dec  6 23:40:14 2016
+
+ProcessID : 2 state : running Tue Dec  6 23:40:14 2016
+
+ProcessID : 2 state : ready Tue Dec  6 23:40:16 2016
+
+ProcessID : 3 state : ready Tue Dec  6 23:40:16 2016
+
+ProcessID : 3 state : running Tue Dec  6 23:40:16 2016
+
+ProcessID : 3 state : ready Tue Dec  6 23:40:19 2016
+
+ProcessID : 4 state : ready Tue Dec  6 23:40:19 2016
+
+ProcessID : 4 state : running Tue Dec  6 23:40:19 2016
+
+ProcessID : 4 state : exit Tue Dec  6 23:40:21 2016
+
+ProcessID : 4 -> 2 -> 0 -> 2
+ProcessID : 3 state : running Tue Dec  6 23:40:21 2016
+
+ProcessID : 3 state : exit Tue Dec  6 23:40:23 2016
+
+ProcessID : 3 -> 5 -> 2 -> 7
+ProcessID : 2 state : running Tue Dec  6 23:40:23 2016
+
+ProcessID : 2 state : exit Tue Dec  6 23:40:24 2016
+
+ProcessID : 2 -> 3 -> 7 -> 10
+ProcessID : 1 state : running Tue Dec  6 23:40:24 2016
+
+ProcessID : 1 state : exit Tue Dec  6 23:40:28 2016
+
+ProcessID : 1 -> 4 -> 10 -> 14
+ 
+Average waiting time :- 4.75
+Average turn around time :- 8.25
+CPU Utilization :- 100
+Deadline missed :- 0

@@ -1,0 +1,101 @@
+How many processes you want to enter :- 10
+Enter time slice for throughput  :- 80
+0 10 51
+0 7 77
+17 9 65
+19 10 74
+19 5 91
+45 8 93
+45 6 59
+80 7 60
+85 5 56
+100 9 61
+<------------------- FCFS ------------------->
+
+No -> Execution time -> Waiting -> Turn around time
+P1 -> 10 -> 0 -> 10
+P2 -> 7 -> 10 -> 17
+P3 -> 9 -> 0 -> 9
+P4 -> 10 -> 7 -> 17
+P5 -> 5 -> 17 -> 22
+IDLE -> 4
+P6 -> 8 -> 0 -> 8
+P7 -> 6 -> 8 -> 14
+IDLE -> 21
+P8 -> 7 -> 0 -> 7
+P9 -> 5 -> 2 -> 7
+IDLE -> 8
+P10 -> 9 -> 0 -> 9
+
+Average waiting time :- 4.4
+Average turn around time :- 12
+CPU Utilization :- 69.7248%
+Deadline missed :- 0%
+Throughput percentage :- 70%
+<------------------- SJF ------------------->
+
+No -> Execution time -> Waiting -> Turn around time
+P2 -> 7 -> 0 -> 7
+P1 -> 10 -> 7 -> 17
+P3 -> 9 -> 0 -> 9
+P5 -> 5 -> 7 -> 12
+P4 -> 10 -> 12 -> 22
+IDLE4
+P7 -> 6 -> 0 -> 6
+P6 -> 8 -> 6 -> 14
+IDLE25
+P8 -> 7 -> 0 -> 7
+P9 -> 5 -> 2 -> 7
+IDLE33
+P10 -> 9 -> 0 -> 9
+
+Average waiting time :- 3.4
+Average turn around time :- 11
+CPU Utilization :- 69.7248%
+Deadline missed :- 0%
+Throughput percentage :- 70%
+<------------------- RR ------------------->
+No -> Execution time -> Waiting -> Turn around time
+P2 -> 1 -> 14 -> 15
+P1 -> 2 -> 15 -> 17
+P5 -> 1 -> 10 -> 11
+IDLE13
+P4 -> 2 -> 30 -> 32
+P7 -> 2 -> 12 -> 14
+P6 -> 2 -> 14 -> 16
+IDLE32
+IDLE35
+IDLE48
+P10 -> 1 -> 8 -> 9
+
+Average waiting time :- 10.3
+Average turn around time :- 11.4
+CPU Utilization :- 55.9633%
+Deadline missed :- 0%
+Throughput percentage :- 60%
+<------------------- EDF ------------------->
+
+No -> Execution time -> Waiting -> Turn around time
+P1 -> 10 -> 0 -> 10
+P2 -> 7 -> 10 -> 17
+P3 -> 9 -> 0 -> 9
+P4 -> 10 -> 7 -> 17
+P5 -> 5 -> 17 -> 22
+IDLE4
+P7 -> 6 -> 0 -> 6
+P6 -> 8 -> 6 -> 14
+IDLE25
+P8 -> 7 -> 0 -> 7
+P9 -> 5 -> 2 -> 7
+IDLE33
+P10 -> 9 -> 0 -> 9
+
+Average waiting time :- 4.2
+Average turn around time :- 11.8
+CPU Utilization :- 69.7248%
+Deadline missed :- 0%
+Throughput percentage :- 70%
+
+Process returned 0 (0x0)   execution time : 15.754 s
+Press any key to continue.
+
