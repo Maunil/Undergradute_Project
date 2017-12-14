@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # My Undergraduate Projects
 
 ## 1). 22 Shrutis Synthesizer
