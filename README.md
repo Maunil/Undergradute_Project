@@ -1,7 +1,7 @@
 # My Undergraduate Projects
 
 ## 1). Conference Article: Artificial Neural Network Based Hybrid Spectrum Sensing Scheme for Cognitive Radio Technology. 
-**Authors : M. R Vyas, D. K Patel, M. López-Benítez**<br>
+**Authors : M. R Vyas,[D. K Patel](https://ahduni.edu.in/seas/people/faculty/dhaval-patel), [M. López-Benítez](http://www.lopezbenitez.es/home.html)**<br>
 Proceedings of the 28th Annual IEEE International Symposium on Personal, Indoor and Mobile Radio Communication (PIMRC 2017),
 Montreal, Quebec, Canada, October 8-13, pp xxx-xxx. 
 <br>
@@ -19,7 +19,7 @@ and the improved energy detection.
 <br><br>
 
 ## 2). 22 Shrutis Synthesizer
-**Members : Deep C. Patel, Maunil Vyas, Shreyas Patel, Prof. Ashok Ranade**<br>
+**Members : [Deep C. Patel](https://github.com/deepcpatel), Maunil Vyas, Shreyas Patel, Prof. Ashok Ranade**<br>
 **Motivation:**
 The usual electronic synthesisers use 12 notes in an octave. However, Indian classical musicians are fastidious about minor frequency variations, and therefore prefer  "22 Shruti (Notes)" in an octave. Thus, in most cases, musicians have to take support from an external entity to tune their instruments as there is an absence of such electronic synthesisers in the market. With this in a view, an initiative is taken to build a "22 Shruti Synthesizers", having a capability of generating 22 Notes. 
 (In Indian classical music, Shruti is jargon for a musical note)
