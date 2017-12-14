@@ -30,7 +30,7 @@ However, the sound quality is not reasonable for musicians, and that is why we a
 
 ## 3). GAN + PPCA 
 **Members : Maunil Vyas, Raj Derasari, Nirav Akbari, Karan Patel, Neel Puniwala**<br>
-** Course: Machine Learning and Algorithms and Optimization for Big Data**<br>
+**Course: Machine Learning and Algorithms and Optimization for Big Data**<br>
 **Abstract:**
 First introduced by I. Goodfellow in 2014, GAN has
 become one of the hot topics in the fields of Machine Learning
@@ -102,6 +102,6 @@ Spell Corrections.
 **Members : Maunil Vyas, Mihir Gajjar, Maitry Mehta, Mohit Vachhani, Mansi Thakkar**<br>
 **Course : Signals and Systems and Linear Algebra**<br>
 My first project on image processing. Implemented “Discrete cosine transform” for image compression followed by the headcount algorithm,
-which was able to count the number of heads (Person).
+	which was able to count the number of heads (Person).
 <br><br>
 
