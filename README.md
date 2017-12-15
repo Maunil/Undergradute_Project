@@ -88,7 +88,7 @@ The application was built on python using PJSUA library. Asterisk server was use
 **Course : Embedded System Design**<br>
 An Embedded Systems Design Project, which allows automation in shopping.  Developed on ATMega-32 using C and Python.
 <br>
-[Video Link](https://drive.google.com/drive/u/2/folders/0Bz2h-52XOL6TbHNGZHFBYXhSbW8) 
+[Video Link](https://drive.google.com/file/d/0Bz2h-52XOL6Td3dqNC1ibkhnd3c/view) 
 <br><br>
 
 
