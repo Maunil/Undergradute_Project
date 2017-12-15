@@ -25,7 +25,7 @@ The usual electronic synthesisers use 12 notes in an octave. However, Indian cla
 (In Indian classical music, Shruti is jargon for a musical note)
 <br>
 **Progress:** Till now, we have successfully implemented a software version of the synthesiser on Scilab and in Python. It is capable of generating 22 different sound tones of having a facility of 22 different notes.  We have created two versions of the synthesiser. The first version synthesises the frequencies using re-sampling of the recorded sound note, and in the second version, we synthesised frequencies using additive synthesis. We analysed primary frequency components of the instrument tone using Fourier Transform and added their harmonics to synthesise various frequencies. 
-However, the sound quality is not reasonable for musicians, and that is why we are seeking an alternative approach to synthesis perfect sound using Autoencoders and other Deep learning techniques. Apart from this, we are also working also working to create a standalone synthesiser using RaspberryPi and MIDI Keyboard.
+However, the sound quality is not reasonable for musicians, and that is why we are seeking an alternative approach to synthesis perfect sound using Autoencoders and other Deep learning techniques. Apart from this, we are also working to create a standalone synthesiser using RaspberryPi and MIDI Keyboard.
 <br><br>
 
 ## 3). GAN + PPCA 
@@ -71,7 +71,7 @@ We tried to reproduce results of the paper titled
 In this project, we have analysed the Traditional CPU Scheduling algorithms such as  
 First Come First Serve(FCFS), Shortest Remaining Next(SRN), Round Robin(RR), Priority Scheduling(PS)
 as well as Real-Time CPU Scheduling Algorithms like Rate Monotonic Scheduling(RMS) and Earliest Deadline First(EDF) 
-algorithms. Additionally, We have compared primary characteristics of the mentioned algorithms such as  Average Waiting Time, 
+algorithms. Additionally, We have compared primary characteristics of the mentioned algorithms like Average Waiting Time, 
 Average Turnaround Time, Throughput and Percentage of Deadlines Missed.
 <br><br>
 
