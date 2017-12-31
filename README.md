@@ -3,8 +3,8 @@
 ## 1). Conference Article: Artificial Neural Network Based Hybrid Spectrum Sensing Scheme for Cognitive Radio Technology. 
 **Authors : M. R Vyas, [D. K Patel](https://ahduni.edu.in/seas/people/faculty/dhaval-patel), [M. López-Benítez](http://www.lopezbenitez.es/home.html)**<br>
 Proceedings of the 28th Annual IEEE International Symposium on Personal, Indoor and Mobile Radio Communication (PIMRC 2017),
-Montreal, Quebec, Canada, October 8-13, pp xxx-xxx. 
-<br>
+Montreal, Quebec, Canada, October 8-13, pp xxx-xxx.
+**[Paper Link](https://goo.gl/BymGTD)**<br>
 **Abstract:**
 Spectrum sensing is a key aspect of Cognitive Radio (CR). 
 The main requirement in CR systems is the ability to sense the primary signal 
