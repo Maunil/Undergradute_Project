@@ -1,10 +1,9 @@
 # My Undergraduate Projects
 
-## 1). Conference Article: Artificial Neural Network Based Hybrid Spectrum Sensing Scheme for Cognitive Radio Technology. 
+## 1). Conference Article: Artificial Neural Network Based Hybrid Spectrum Sensing Scheme for Cognitive Radio Technology. [Paper Link](https://goo.gl/BymGTD)
 **Authors : M. R Vyas, [D. K Patel](https://ahduni.edu.in/seas/people/faculty/dhaval-patel), [M. López-Benítez](http://www.lopezbenitez.es/home.html)**<br>
 Proceedings of the 28th Annual IEEE International Symposium on Personal, Indoor and Mobile Radio Communication (PIMRC 2017),
-Montreal, Quebec, Canada, October 8-13, pp xxx-xxx.
-**[Paper Link](https://goo.gl/BymGTD)**<br>
+Montreal, Quebec, Canada, October 8-13, pp xxx-xxx.<br>
 <br>
 **Abstract:**
 Spectrum sensing is a key aspect of Cognitive Radio (CR). 
@@ -21,10 +20,11 @@ and the improved energy detection.
 
 ## 2). 22 Shrutis Synthesizer
 **Members : [Deep C. Patel](https://github.com/deepcpatel), Maunil Vyas, [Shreyas Patel](https://github.com/shreyaspatel25), Prof. Ashok Ranade**<br>
+<br>
 **Motivation:**
 The usual electronic synthesisers use 12 notes in an octave. However, Indian classical musicians are fastidious about minor frequency variations, and therefore prefer  "22 Shruti (Notes)" in an octave. Thus, in most cases, musicians have to take support from an external entity to tune their instruments as there is an absence of such electronic synthesisers in the market. With this in a view, an initiative is taken to build a "22 Shruti Synthesizers", having a capability of generating 22 Notes. 
 (In Indian classical music, Shruti is jargon for a musical note)
-<br>
+<br><br>
 **Progress:** Till now, we have successfully implemented a software version of the synthesiser on Scilab and in Python. It is capable of generating 22 different sound tones of having a facility of 22 different notes.  We have created two versions of the synthesiser. The first version synthesises the frequencies using re-sampling of the recorded sound note, and in the second version, we synthesised frequencies using additive synthesis. We analysed primary frequency components of the instrument tone using Fourier Transform and added their harmonics to synthesise various frequencies. 
 However, the sound quality is not reasonable for musicians, and that is why we are seeking an alternative approach to synthesis perfect sound using Autoencoders and other Deep learning techniques. Apart from this, we are also working to create a standalone synthesiser using RaspberryPi and MIDI Keyboard.
 <br><br>
