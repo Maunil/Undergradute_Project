@@ -5,6 +5,7 @@
 Proceedings of the 28th Annual IEEE International Symposium on Personal, Indoor and Mobile Radio Communication (PIMRC 2017),
 Montreal, Quebec, Canada, October 8-13, pp xxx-xxx.
 **[Paper Link](https://goo.gl/BymGTD)**<br>
+<br>
 **Abstract:**
 Spectrum sensing is a key aspect of Cognitive Radio (CR). 
 The main requirement in CR systems is the ability to sense the primary signal 
